@@ -1,0 +1,17 @@
+# This scaleFUN makes the decimal point on Y axis exactly one decimal.
+scaleFUN <- function(x) sprintf("%.1f", x)
+data <-read.table("wild_fold_change_v2.txt", header=TRUE)
+ypd<-subset(data, grepl("ypd", Sample))
+ypd$ecology<-factor(ypd$ecology,c("Clinical","Fermentation","Nature","Laboratory","Unknown"))
+p <- ggplot(ypd, aes(factor(Strain), FC))
+pdf("Fold_change_ecology_ypd.pdf", height =4.5, width = 10)
+p + geom_boxplot(aes(fill = factor(ecology))) + facet_grid(.~ecology, scales="free_x", space="free_x") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + scale_y_continuous(labels=scaleFUN)
+dev.off()
+larvae<-subset(data, grepl("larvae", Sample))
+larvae$ecology<-factor(larvae$ecology,c("Clinical","Fermentation","Nature","Laboratory","Unknown"))
+p <- ggplot(larvae, aes(factor(Strain), FC))
+pdf("Fold_change_ecology_larvae.pdf", height =4.5, width = 10)
+p + geom_boxplot(aes(fill = factor(ecology))) + facet_grid(.~ecology, scales="free_x", space="free_x") + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + scale_y_continuous(labels=scaleFUN, limits=c(-2,6))
+dev.off()
+
+# These were then manipulated in Illustrator to put the two plots on top of each other
