@@ -6,6 +6,7 @@ library (ggplot2)
 observed<-read.table("xqtl_322143SxYPS128_freqs.txt",header=TRUE)
 freqs<-read.table("cross1_freqs_LODs.txt",header=TRUE)
 
+# X41078 are the initial frequencies, X41079 are the frequencies in the YPD selected pool, and X41080 are the frequencies in the larvae selected pool.
 xlabelplot<-element_text(face = "plain", color = "black", size = 5)
 ggplot(data=observed, aes(x=Position)) +facet_grid(~Chromosome,scales='free_x',space='free_x') +
 geom_point(aes(y = X41079_allele_freq), colour = "red", size=0.75, alpha=0.15) + 
