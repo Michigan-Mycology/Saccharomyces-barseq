@@ -1,0 +1,12 @@
+survivorship<-read.table("ind_inoc_survivorship.txt", header=TRUE, sep="\t")
+data.summary <- data.frame(
+	Strain=levels(survivorship$strain),
+	Mean=tapply(survivorship$survived_per, survivorship$strain, mean),
+	n=tapply(survivorship$survived_per, survivorship$strain, length),
+	sd=tapply(survivorship$survived_per, survivorship$strain, sd)
+	)
+ggplot(data.summary, aes(x = Strain, y = Mean)) +  
+  geom_bar(position = position_dodge(), stat="identity", fill="grey") + 
+  geom_errorbar(aes(ymin=Mean-sd, ymax=Mean+sd), width = 0.4) +
+  theme_bw() + # remove grey background 
+  theme(panel.grid.major = element_blank()) # remove x and y major grid lines 
