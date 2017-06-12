@@ -1,0 +1,29 @@
+# Analysis of doubling time in vivo calculated using R
+# data are averages across 4 replicate larval populations
+
+time<-c(1,8,16,24,32,40,48)
+data<-c(61650,67075,87875,161650,329125,693250,598875)
+plot (time,data)
+plot(time, log10(data), xlab="hours post injection", ylab="log10(counts)", xaxt="n", pch=19, cex=1.5)
+axis(1, c(1,8,16,24,32,40,48))
+lm(log(data) ~ time)
+# Points 3-6 (Hours 16-40 appears log linear so we use this to estimate doubling time)
+fit <-lm(log(data[3:6]) ~ time[3:6])
+fit10 <-lm(log10(data[3:6]) ~ time[3:6])
+abline(fit10, lty=2)
+
+# > fit
+
+# Call:
+# lm(formula = log(data[3:6]) ~ time[3:6])
+
+# Coefficients:
+# (Intercept)    time[3:6]  
+#   12.26753      0.08634  
+
+# > fit$coef[2]
+# time[3:6] 
+# 0.08634288 
+# > log(2)/fit$coef[2]
+# time[3:6] 
+# 8.027844 
