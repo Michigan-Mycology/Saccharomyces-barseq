@@ -1,0 +1,8 @@
+pairdata<-read.table("pairwise_data.txt", header=TRUE, sep="\t")
+means<-aggregate(x = pairdata$Fold.change, by = list(pairdata$Comparison,pairdata$Strain), FUN = "mean")
+sds<-aggregate(x = pairdata$Fold.change, by = list(pairdata$Comparison,pairdata$Strain), FUN = "sd")
+limits <- aes(ymax = means$x + sds$x, ymin=means$x - sds$x)
+p<-ggplot(means, aes(Group.1, x)) + geom_bar(aes(fill = Group.2, width=0.75), position = position_dodge(width=0.75), stat="identity")
+p + labs(fill = "Strain") + ylab("Fold change") +xlab("Comparison") + geom_errorbar(limits, position="dodge", width=0.25)
+
+# The figure was then modified in Illustrator
