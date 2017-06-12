@@ -1,0 +1,17 @@
+timeseries.interleaved<-read.table("frequencies_over_time_interleaved.txt",header=TRUE)
+colnames(timeseries.interleaved)[2:5]<-c(0,1,2,3)
+timeseries.melted <- melt(timeseries.interleaved, id = "Gene")
+colnames(timeseries.melted)[2]<-"time"
+tail(timeseries.melted)
+type<-c("vitro","vivo")
+typecol<-rep(type,length(timeseries.melted$value)/2)
+timeseries.melted[,"treatment"] <- typecol
+FDRs.dupped8.interleaved<-read.table("last_passage_FDRs_dup_interleaved.txt")
+timeseries.melted[,"FDR"] <- FDRs.dupped8.interleaved
+xyplot(value~time,type=c('l'),groups= Gene,data=timeseries.melted, 
+	col=ifelse((timeseries.melted$treatment=="vitro"&timeseries.melted$FDR>8.09E-233), "#FF000032", 
+	ifelse((timeseries.melted$treatment=="vivo"&timeseries.melted$FDR>8.09E-233), 
+	"#00FF0032", ifelse (timeseries.melted$treatment=="vitro","red","green"))), 
+	scales = list(y = list(log = 10)), lwd=ifelse((timeseries.melted$FDR>8.09E-233), 0.5, 2))
+
+# Modified in Illustator
