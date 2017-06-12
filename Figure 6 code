@@ -1,0 +1,18 @@
+library("scales")
+kotc2<-read.table("last_passage_fc_pvals.txt", header=TRUE)
+# Ignore values where P = 1. 
+kotc2_sub<-subset(kotc2, FDR!=1)
+
+p2<-ggplot(kotc2_sub, aes(FDR,logFC, colour = FDR >0.05, label = Gene)) +
+  scale_colour_manual(name = 'Signficance', values = setNames(c('red','green'),c(T,F)))
+
+# code from http://stackoverflow.com/questions/11053899
+# And modified by Robinson
+reverseloglog_trans <- function(base = exp(1)) {
+    trans <- function(x) log(-log(x, base), base)
+    inv <- function(x) base^(-(base^x))
+    trans_new(paste0("reverseloglog-", format(base)), trans, inv, 
+              function(x) c( 1, 0.5, .1, 1e-05, 1e-25, 1e-125), 
+              domain = c(1e-300, Inf))
+}
+p2 +geom_point() +scale_x_continuous(trans=reverseloglog_trans(10)) +theme(legend.position="none", panel.grid.minor.x = element_blank())
