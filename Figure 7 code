@@ -1,0 +1,8 @@
+# Plots everything with significance level at 0.05
+library(GOplot)
+invivo_05<-read.table("gostats_circ_Invivo_cor_0.05.txt",header=TRUE)
+GOBubble(invivo_05, labels = 3)
+invitro_05<-read.table("gostats_circ_Invitro_cor_0.05.txt",header=TRUE)
+GOBubble(invitro_05, labels = 3)
+
+# Composited and modified in Illustrator
