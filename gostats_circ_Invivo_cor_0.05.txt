@@ -1,0 +1,388 @@
+category 	ID	term	count	genes	logFC	adj_pval 	zscore
+CC	GO:0005759	"mitochondrial matrix"	21	TEST	1	1.70E-08	-0.513121062
+CC	GO:0000313	"organellar ribosome"	4	TEST2	1	1.05E-06	-0.848323127
+CC	GO:0016021	"integral component of membrane"	254	TEST3	1	5.85E-06	-0.15909203
+CC	GO:0005739	"mitochondrion"	216	TEST4	1	0.000141195	-0.140577123
+CC	GO:0044425	"membrane part"	268	TEST5	1	0.000458345	-0.121095178
+CC	GO:0031090	"organelle membrane"	54	TEST6	1	0.000481443	-0.227851947
+CC	GO:0005762	"mitochondrial large ribosomal subunit"	3	TEST7	1	0.000851384	-0.720237141
+CC	GO:0005740	"mitochondrial envelope"	72	TEST8	1	0.001719957	-0.179286293
+CC	GO:0005783	"endoplasmic reticulum"	105	TEST9	1	0.00188524	-0.151321063
+CC	GO:0005763	"mitochondrial small ribosomal subunit"	1	TEST10	1	0.004513017	-0.95962862
+CC	GO:0098800	"inner mitochondrial membrane protein complex"	8	TEST11	1	0.004548713	-0.426367717
+CC	GO:0098573	"intrinsic component of mitochondrial membrane"	7	TEST12	1	0.005784175	-0.440523449
+CC	GO:0005886	"plasma membrane"	74	TEST13	1	0.007171016	-0.151148083
+CC	GO:1905368	"peptidase complex"	4	TEST14	1	0.008682609	-0.534216942
+CC	GO:0031305	"integral component of mitochondrial inner membrane"	2	TEST15	1	0.008875172	-0.704360572
+CC	GO:0005743	"mitochondrial inner membrane"	22	TEST16	1	0.009102605	-0.252627017
+CC	GO:0030136	"clathrin-coated vesicle"	4	TEST17	1	0.011527295	-0.51764523
+CC	GO:0097708	"intracellular vesicle"	16	TEST18	1	0.011932247	-0.280655842
+CC	GO:0005789	"endoplasmic reticulum membrane"	56	TEST19	1	0.014006804	-0.154882794
+CC	GO:0031975	"envelope"	99	TEST20	1	0.014070321	-0.120055861
+CC	GO:0016023	"cytoplasmic, membrane-bounded vesicle"	16	TEST21	1	0.014415029	-0.273172775
+CC	GO:1990351	"transporter complex"	4	TEST22	1	0.015240301	-0.50043067
+CC	GO:0030134	"ER to Golgi transport vesicle"	2	TEST23	1	0.0231323	-0.63323742
+CC	GO:0098588	"bounding membrane of organelle"	125	TEST24	1	0.023800976	-0.098657777
+CC	GO:0044431	"Golgi apparatus part"	31	TEST25	1	0.024539881	-0.184402485
+CC	GO:0030173	"integral component of Golgi membrane"	1	TEST26	1	0.026599282	-0.817397131
+CC	GO:0070210	"Rpd3L-Expanded complex"	1	TEST27	1	0.026599282	-0.817397131
+CC	GO:0099023	"tethring complex"	1	TEST28	1	0.026599282	-0.817397131
+CC	GO:0098827	"endoplasmic reticulum subcompartment"	3	TEST29	1	0.033726236	-0.505454853
+CC	GO:0030119	"AP-type membrane coat adaptor complex"	1	TEST30	1	0.037527993	-0.782454782
+CC	GO:0033177	"proton-transporting two-sector ATPase complex, proton-transporting domain"	1	TEST31	1	0.037527993	-0.782454782
+CC	GO:0031226	"intrinsic component of plasma membrane"	24	TEST32	1	0.038912386	-0.189232928
+CC	GO:0032541	"cortical endoplasmic reticulum"	3	TEST33	1	0.044573439	-0.481793065
+CC	GO:0005634	"nucleus"	394	TEST34	1	1.17E-07	0.177695088
+CC	GO:0030687	"preribosome, large subunit precursor"	20	TEST35	1	4.24E-05	0.702220456
+CC	GO:0032991	"macromolecular complex"	379	TEST36	1	5.30E-05	0.133389856
+CC	GO:0005730	"nucleolus"	40	TEST37	1	0.000115696	0.39247754
+CC	GO:0005871	"kinesin complex"	8	TEST38	1	0.000154777	NA
+CC	GO:0005657	"replication fork"	15	TEST39	1	0.000408619	0.700771311
+CC	GO:0000776	"kinetochore"	18	TEST40	1	0.000409288	0.604406072
+CC	GO:0098687	"chromosomal region"	38	TEST41	1	0.00069064	0.342791508
+CC	GO:0022625	"cytosolic large ribosomal subunit"	30	TEST42	1	0.000955587	0.384032839
+CC	GO:0030529	"intracellular ribonucleoprotein complex"	130	TEST43	1	0.002322248	0.151765923
+CC	GO:0005694	"chromosome"	30	TEST44	1	0.003214014	0.32799849
+CC	GO:0031298	"replication fork protection complex"	8	TEST45	1	0.003457933	0.903089987
+CC	GO:0000778	"condensed nuclear chromosome kinetochore"	13	TEST46	1	0.003780826	0.5707754
+CC	GO:0098562	"cytoplasmic side of membrane"	9	TEST47	1	0.003917415	0.778330822
+CC	GO:0032993	"protein-DNA complex"	10	TEST48	1	0.004104406	0.699329371
+CC	GO:0000228	"nuclear chromosome"	69	TEST49	1	0.005792805	0.187029943
+CC	GO:0099080	"supramolecular complex"	22	TEST50	1	0.005830278	0.366691671
+CC	GO:0099512	"supramolecular fiber"	22	TEST51	1	0.005830278	0.366691671
+CC	GO:0071004	"U2-type prespliceosome"	6	TEST52	1	0.006959593	1.07864342
+CC	GO:0000779	"condensed chromosome, centromeric region"	16	TEST53	1	0.008274338	0.427051312
+CC	GO:0005623	"cell"	1119	TEST54	1	0.008557615	0.129557341
+CC	GO:0000417	"HIR complex"	4	TEST55	1	0.012495634	NA
+CC	GO:0005742	"mitochondrial outer membrane translocase complex"	4	TEST56	1	0.012495634	NA
+CC	GO:0031234	"extrinsic component of cytoplasmic side of plasma membrane"	4	TEST57	1	0.012495634	NA
+CC	GO:0005874	"microtubule"	18	TEST58	1	0.014526075	0.353266899
+CC	GO:0022627	"cytosolic small ribosomal subunit"	20	TEST59	1	0.015717707	0.324573347
+CC	GO:0022626	"cytosolic ribosome"	5	TEST60	1	0.016799289	1.009419471
+CC	GO:0000788	"nuclear nucleosome"	5	TEST61	1	0.018071381	0.999103993
+CC	GO:0031011	"Ino80 complex"	5	TEST62	1	0.018071381	0.999103993
+CC	GO:0044424	"intracellular part"	939	TEST63	1	0.018296628	0.101037721
+CC	GO:0005643	"nuclear pore"	16	TEST64	1	0.019102455	0.359743962
+CC	GO:0044815	"DNA packaging complex"	6	TEST65	1	0.019944756	0.777434001
+CC	GO:0031965	"nuclear membrane"	21	TEST66	1	0.033968162	0.262427556
+CC	GO:0043232	"intracellular non-membrane-bounded organelle"	152	TEST67	1	0.034851149	0.088963755
+CC	GO:0005782	"peroxisomal matrix"	8	TEST68	1	0.035197956	0.504611263
+CC	GO:0000110	"nucleotide-excision repair factor 1 complex"	3	TEST69	1	0.037404625	NA
+CC	GO:0005685	"U1 snRNP"	3	TEST70	1	0.037404625	NA
+CC	GO:0016281	"eukaryotic translation initiation factor 4F complex"	3	TEST71	1	0.037404625	NA
+CC	GO:0031105	"septin complex"	3	TEST72	1	0.037404625	NA
+CC	GO:0031417	"NatC complex"	3	TEST73	1	0.037404625	NA
+CC	GO:0033186	"CAF-1 complex"	3	TEST74	1	0.037404625	NA
+CC	GO:0034274	"Atg12-Atg5-Atg16 complex"	3	TEST75	1	0.037404625	NA
+CC	GO:0034506	"chromosome, centromeric core domain"	3	TEST76	1	0.037404625	NA
+CC	GO:0043505	"CENP-A containing nucleosome"	3	TEST77	1	0.037404625	NA
+CC	GO:0070823	"HDA1 complex"	3	TEST78	1	0.037404625	NA
+CC	GO:1990615	"Kelch-containing formin regulatory complex"	3	TEST79	1	0.037404625	NA
+CC	GO:0030532	"small nuclear ribonucleoprotein complex"	7	TEST80	1	0.039205845	0.543350202
+CC	GO:0044452	"nucleolar part"	7	TEST81	1	0.039205845	0.543350202
+CC	GO:0031310	"intrinsic component of vacuolar membrane"	6	TEST82	1	0.043016777	0.601163244
+CC	GO:0016272	"prefoldin complex"	4	TEST83	1	0.04578983	0.901836094
+CC	GO:0042575	"DNA polymerase complex"	4	TEST84	1	0.04578983	0.901836094
+CC	GO:0071013	"catalytic step 2 spliceosome"	4	TEST85	1	0.04578983	0.901836094
+CC	GO:0000785	"chromatin"	40	TEST86	1	0.046376523	0.164750269
+BP	GO:0006725	"cellular aromatic compound metabolic process"	404	TEST87	1	3.45E-07	0.1676342
+BP	GO:1901360	"organic cyclic compound metabolic process"	413	TEST88	1	4.86E-07	0.164151627
+BP	GO:0046483	"heterocycle metabolic process"	401	TEST89	1	4.89E-07	0.16565602
+BP	GO:0042273	"ribosomal large subunit biogenesis"	27	TEST90	1	1.01E-05	0.62334545
+BP	GO:0034641	"cellular nitrogen compound metabolic process"	461	TEST91	1	3.16E-05	0.129429746
+BP	GO:0071103	"DNA conformation change"	23	TEST92	1	4.24E-05	0.6269854
+BP	GO:0098813	"nuclear chromosome segregation"	47	TEST93	1	0.000109662	0.35686863
+BP	GO:0031497	"chromatin assembly"	16	TEST94	1	0.000184506	0.729161195
+BP	GO:0048519	"negative regulation of biological process"	147	TEST95	1	0.000217292	0.179747687
+BP	GO:0034654	"nucleobase-containing compound biosynthetic process"	216	TEST96	1	0.000256577	0.147949453
+BP	GO:0002181	"cytoplasmic translation"	53	TEST97	1	0.000261835	0.308239135
+BP	GO:0006913	"nucleocytoplasmic transport"	44	TEST98	1	0.000326676	0.337760118
+BP	GO:0000723	"telomere maintenance"	18	TEST99	1	0.0003803	0.607870038
+BP	GO:0006189	"'de novo' IMP biosynthetic process"	7	TEST100	1	0.00046433	NA
+BP	GO:0051276	"chromosome organization"	51	TEST101	1	0.000494467	0.295393325
+BP	GO:0044238	"primary metabolic process"	692	TEST102	1	0.000545109	0.101186569
+BP	GO:0071166	"ribonucleoprotein complex localization"	31	TEST103	1	0.000842887	0.381424441
+BP	GO:0065004	"protein-DNA complex assembly"	24	TEST104	1	0.001291788	0.428868873
+BP	GO:0016458	"gene silencing"	47	TEST105	1	0.0013283	0.280799696
+BP	GO:0045814	"negative regulation of gene expression, epigenetic"	47	TEST106	1	0.001381759	0.279685643
+BP	GO:1903321	"negative regulation of protein modification by small protein conjugation or removal"	6	TEST107	1	0.001392225	NA
+BP	GO:0016070	"RNA metabolic process"	183	TEST108	1	0.001619687	0.134297116
+BP	GO:0007064	"mitotic sister chromatid cohesion"	10	TEST109	1	0.00164176	0.825889768
+BP	GO:0009987	"cellular process"	947	TEST110	1	0.001694422	0.106002079
+BP	GO:0031324	"negative regulation of cellular metabolic process"	108	TEST111	1	0.001823992	0.171513944
+BP	GO:0000722	"telomere maintenance via recombination"	12	TEST112	1	0.001902802	0.682140584
+BP	GO:0051172	"negative regulation of nitrogen compound metabolic process"	92	TEST113	1	0.002055222	0.183883297
+BP	GO:0044249	"cellular biosynthetic process"	419	TEST114	1	0.002167899	0.094360551
+BP	GO:0000280	"nuclear division"	52	TEST115	1	0.002183173	0.249315522
+BP	GO:0044085	"cellular component biogenesis"	212	TEST116	1	0.002480735	0.119721908
+BP	GO:0042276	"error-prone translesion synthesis"	7	TEST117	1	0.002631206	1.145948686
+BP	GO:0019219	"regulation of nucleobase-containing compound metabolic process"	184	TEST118	1	0.003231498	0.123511407
+BP	GO:0033047	"regulation of mitotic sister chromatid segregation"	20	TEST119	1	0.003247787	0.427958009
+BP	GO:0051304	"chromosome separation"	20	TEST120	1	0.003247787	0.427958009
+BP	GO:0009890	"negative regulation of biosynthetic process"	92	TEST121	1	0.003388635	0.172850775
+BP	GO:0046040	"IMP metabolic process"	8	TEST122	1	0.003457933	0.903089987
+BP	GO:0010467	"gene expression"	321	TEST123	1	0.003542825	0.096974144
+BP	GO:0045002	"double-strand break repair via single-strand annealing"	9	TEST124	1	0.003917415	0.778330822
+BP	GO:0006265	"DNA topological change"	5	TEST125	1	0.004172085	NA
+BP	GO:0006336	"DNA replication-independent nucleosome assembly"	5	TEST126	1	0.004172085	NA
+BP	GO:0030491	"heteroduplex formation"	5	TEST127	1	0.004172085	NA
+BP	GO:0050657	"nucleic acid transport"	34	TEST128	1	0.004385462	0.291911589
+BP	GO:0051983	"regulation of chromosome segregation"	21	TEST129	1	0.004447518	0.394791304
+BP	GO:0006405	"RNA export from nucleus"	24	TEST130	1	0.004483047	0.36137978
+BP	GO:0051236	"establishment of RNA localization"	33	TEST131	1	0.0050132	0.291350995
+BP	GO:0000447	"endonucleolytic cleavage in ITS1 to separate SSU-rRNA from 5.8S rRNA and LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"	6	TEST132	1	0.006959593	1.07864342
+BP	GO:0006277	"DNA amplification"	6	TEST133	1	0.006959593	1.07864342
+BP	GO:0030490	"maturation of SSU-rRNA"	17	TEST134	1	0.007323455	0.418799362
+BP	GO:0090304	"nucleic acid metabolic process"	62	TEST135	1	0.007350736	0.189345785
+BP	GO:1903507	"negative regulation of nucleic acid-templated transcription"	73	TEST136	1	0.007356728	0.174931389
+BP	GO:0009059	"macromolecule biosynthetic process"	314	TEST137	1	0.007510205	0.088179336
+BP	GO:0042254	"ribosome biogenesis"	18	TEST138	1	0.007986028	0.393632568
+BP	GO:2000113	"negative regulation of cellular macromolecule biosynthetic process"	84	TEST139	1	0.007990443	0.160266699
+BP	GO:0000460	"maturation of 5.8S rRNA"	11	TEST140	1	0.008138907	0.564631095
+BP	GO:0046148	"pigment biosynthetic process"	11	TEST141	1	0.008138907	0.564631095
+BP	GO:0051253	"negative regulation of RNA metabolic process"	73	TEST142	1	0.008672121	0.170379589
+BP	GO:0034629	"cellular protein complex localization"	8	TEST143	1	0.008963382	0.72681923
+BP	GO:0006355	"regulation of transcription, DNA-templated"	164	TEST144	1	0.009421312	0.111885579
+BP	GO:2001141	"regulation of RNA biosynthetic process"	164	TEST145	1	0.009421312	0.111885579
+BP	GO:0006348	"chromatin silencing at telomere"	26	TEST146	1	0.009535739	0.303210558
+BP	GO:0006400	"tRNA modification"	26	TEST147	1	0.009535739	0.303210558
+BP	GO:0033554	"cellular response to stress"	166	TEST148	1	0.010841687	0.108696619
+BP	GO:0043414	"macromolecule methylation"	29	TEST149	1	0.011418219	0.274434026
+BP	GO:0071428	"rRNA-containing ribonucleoprotein complex export from nucleus"	13	TEST150	1	0.011792927	0.461271118
+BP	GO:0006335	"DNA replication-dependent nucleosome assembly"	4	TEST151	1	0.012495634	NA
+BP	GO:0016242	"negative regulation of macroautophagy"	4	TEST152	1	0.012495634	NA
+BP	GO:0051444	"negative regulation of ubiquitin-protein transferase activity"	4	TEST153	1	0.012495634	NA
+BP	GO:0060236	"regulation of mitotic spindle organization"	4	TEST154	1	0.012495634	NA
+BP	GO:0006325	"chromatin organization"	58	TEST155	1	0.012717877	0.179983678
+BP	GO:0033044	"regulation of chromosome organization"	23	TEST156	1	0.014370511	0.302662343
+BP	GO:0007059	"chromosome segregation"	10	TEST157	1	0.014520951	0.532497244
+BP	GO:0006887	"exocytosis"	18	TEST158	1	0.014526075	0.353266899
+BP	GO:0033046	"negative regulation of sister chromatid segregation"	15	TEST159	1	0.014611507	0.398661428
+BP	GO:0006368	"transcription elongation from RNA polymerase II promoter"	25	TEST160	1	0.014772805	0.285813031
+BP	GO:0000075	"cell cycle checkpoint"	27	TEST161	1	0.014956915	0.271996703
+BP	GO:0006364	"rRNA processing"	17	TEST162	1	0.015444569	0.361060007
+BP	GO:0034728	"nucleosome organization"	17	TEST163	1	0.01623	0.357922106
+BP	GO:0000070	"mitotic sister chromatid segregation"	9	TEST164	1	0.016334909	0.563795249
+BP	GO:0030071	"regulation of mitotic metaphase/anaphase transition"	17	TEST165	1	0.01665355	0.356290745
+BP	GO:0044092	"negative regulation of molecular function"	17	TEST166	1	0.01665355	0.356290745
+BP	GO:0006281	"DNA repair"	57	TEST167	1	0.017466618	0.171369298
+BP	GO:0018193	"peptidyl-amino acid modification"	48	TEST168	1	0.017634927	0.188118563
+BP	GO:0007019	"microtubule depolymerization"	5	TEST169	1	0.018071381	0.999103993
+BP	GO:0010501	"RNA secondary structure unwinding"	5	TEST170	1	0.018071381	0.999103993
+BP	GO:0018202	"peptidyl-histidine modification"	5	TEST171	1	0.018071381	0.999103993
+BP	GO:0030261	"chromosome condensation"	5	TEST172	1	0.018071381	0.999103993
+BP	GO:0042766	"nucleosome mobilization"	5	TEST173	1	0.018071381	0.999103993
+BP	GO:0090501	"RNA phosphodiester bond hydrolysis"	13	TEST174	1	0.018950272	0.415333609
+BP	GO:0000463	"maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)"	8	TEST175	1	0.019055314	0.601700922
+BP	GO:0000731	"DNA synthesis involved in DNA repair"	8	TEST176	1	0.019055314	0.601700922
+BP	GO:0031990	"mRNA export from nucleus in response to heat stress"	6	TEST177	1	0.019944756	0.777434001
+BP	GO:0097549	"chromatin organization involved in negative regulation of transcription"	6	TEST178	1	0.019944756	0.777434001
+BP	GO:0051346	"negative regulation of hydrolase activity"	7	TEST179	1	0.019960641	0.668468511
+BP	GO:0007127	"meiosis I"	28	TEST180	1	0.022100982	0.244858993
+BP	GO:0060255	"regulation of macromolecule metabolic process"	232	TEST181	1	0.023374971	0.081024354
+BP	GO:0006301	"postreplication repair"	11	TEST182	1	0.024477424	0.439332694
+BP	GO:0071174	"mitotic spindle checkpoint"	14	TEST183	1	0.02517638	0.368337345
+BP	GO:1902100	"negative regulation of metaphase/anaphase transition of cell cycle"	14	TEST184	1	0.02517638	0.368337345
+BP	GO:2000816	"negative regulation of mitotic sister chromatid separation"	14	TEST185	1	0.02517638	0.368337345
+BP	GO:0071427	"mRNA-containing ribonucleoprotein complex export from nucleus"	16	TEST186	1	0.027483273	0.329600346
+BP	GO:0040023	"establishment of nucleus localization"	10	TEST187	1	0.027738094	0.455752161
+BP	GO:0071705	"nitrogen compound transport"	74	TEST188	1	0.029063925	0.13340084
+BP	GO:0051028	"mRNA transport"	24	TEST189	1	0.029348638	0.251148669
+BP	GO:0043900	"regulation of multi-organism process"	9	TEST190	1	0.03132837	0.476761888
+BP	GO:0050000	"chromosome localization"	9	TEST191	1	0.03132837	0.476761888
+BP	GO:0045786	"negative regulation of cell cycle"	27	TEST192	1	0.032105046	0.228699925
+BP	GO:0008652	"cellular amino acid biosynthetic process"	37	TEST193	1	0.032199731	0.190191304
+BP	GO:0051301	"cell division"	59	TEST194	1	0.032898432	0.146008362
+BP	GO:0000375	"RNA splicing, via transesterification reactions"	17	TEST195	1	0.033212652	0.301572073
+BP	GO:0000478	"endonucleolytic cleavage involved in rRNA processing"	8	TEST196	1	0.035197956	0.504611263
+BP	GO:0001100	"negative regulation of exit from mitosis"	8	TEST197	1	0.035197956	0.504611263
+BP	GO:0010970	"transport along microtubule"	8	TEST198	1	0.035197956	0.504611263
+BP	GO:0030473	"nuclear migration along microtubule"	8	TEST199	1	0.035197956	0.504611263
+BP	GO:0034470	"ncRNA processing"	30	TEST200	1	0.035644671	0.208270259
+BP	GO:0007018	"microtubule-based movement"	3	TEST201	1	0.037067666	NA
+BP	GO:0000162	"tryptophan biosynthetic process"	3	TEST202	1	0.037404625	NA
+BP	GO:0000393	"spliceosomal conformational changes to generate catalytic conformation"	3	TEST203	1	0.037404625	NA
+BP	GO:0000712	"resolution of meiotic recombination intermediates"	3	TEST204	1	0.037404625	NA
+BP	GO:0001308	"negative regulation of chromatin silencing involved in replicative cell aging"	3	TEST205	1	0.037404625	NA
+BP	GO:0006272	"leading strand elongation"	3	TEST206	1	0.037404625	NA
+BP	GO:0006688	"glycosphingolipid biosynthetic process"	3	TEST207	1	0.037404625	NA
+BP	GO:0010978	"gene silencing involved in chronological cell aging"	3	TEST208	1	0.037404625	NA
+BP	GO:0015888	"thiamine transport"	3	TEST209	1	0.037404625	NA
+BP	GO:0030472	"mitotic spindle organization in nucleus"	3	TEST210	1	0.037404625	NA
+BP	GO:0031047	"gene silencing by RNA"	3	TEST211	1	0.037404625	NA
+BP	GO:0031589	"cell-substrate adhesion"	3	TEST212	1	0.037404625	NA
+BP	GO:0033683	"nucleotide-excision repair, DNA incision"	3	TEST213	1	0.037404625	NA
+BP	GO:0042435	"indole-containing compound biosynthetic process"	3	TEST214	1	0.037404625	NA
+BP	GO:0043709	"cell adhesion involved in single-species biofilm formation"	3	TEST215	1	0.037404625	NA
+BP	GO:0046084	"adenine biosynthetic process"	3	TEST216	1	0.037404625	NA
+BP	GO:0051436	"negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle"	3	TEST217	1	0.037404625	NA
+BP	GO:0070869	"heterochromatin assembly involved in chromatin silencing"	3	TEST218	1	0.037404625	NA
+BP	GO:0072698	"protein localization to microtubule cytoskeleton"	3	TEST219	1	0.037404625	NA
+BP	GO:0090231	"regulation of spindle checkpoint"	3	TEST220	1	0.037404625	NA
+BP	GO:0090266	"regulation of mitotic cell cycle spindle assembly checkpoint"	3	TEST221	1	0.037404625	NA
+BP	GO:0090399	"replicative senescence"	3	TEST222	1	0.037404625	NA
+BP	GO:0090605	"submerged biofilm formation"	3	TEST223	1	0.037404625	NA
+BP	GO:1903088	"5-amino-1-ribofuranosylimidazole-4-carboxamide transmembrane transport"	3	TEST224	1	0.037404625	NA
+BP	GO:1903828	"negative regulation of cellular protein localization"	3	TEST225	1	0.037404625	NA
+BP	GO:0018105	"peptidyl-serine phosphorylation"	11	TEST226	1	0.038275156	0.388000228
+BP	GO:0000724	"double-strand break repair via homologous recombination"	16	TEST227	1	0.038312996	0.301391155
+BP	GO:0006383	"transcription from RNA polymerase III promoter"	7	TEST228	1	0.039205845	0.543350202
+BP	GO:0006995	"cellular response to nitrogen starvation"	7	TEST229	1	0.039205845	0.543350202
+BP	GO:0031365	"N-terminal protein amino acid modification"	7	TEST230	1	0.039205845	0.543350202
+BP	GO:0070828	"heterochromatin organization"	7	TEST231	1	0.039205845	0.543350202
+BP	GO:0007021	"tubulin complex assembly"	6	TEST232	1	0.043016777	0.601163244
+BP	GO:0031125	"rRNA 3'-end processing"	6	TEST233	1	0.043016777	0.601163244
+BP	GO:0043174	"nucleoside salvage"	6	TEST234	1	0.043016777	0.601163244
+BP	GO:1903311	"regulation of mRNA metabolic process"	6	TEST235	1	0.043016777	0.601163244
+BP	GO:2000278	"regulation of DNA biosynthetic process"	6	TEST236	1	0.043016777	0.601163244
+BP	GO:0006338	"chromatin remodeling"	21	TEST237	1	0.04304504	0.245399832
+BP	GO:0006576	"cellular biogenic amine metabolic process"	10	TEST238	1	0.044068496	0.397580344
+BP	GO:0071472	"cellular response to salt stress"	10	TEST239	1	0.044068496	0.397580344
+BP	GO:0016237	"lysosomal microautophagy"	17	TEST240	1	0.044983169	0.276567872
+BP	GO:0000245	"spliceosomal complex assembly"	4	TEST241	1	0.04578983	0.901836094
+BP	GO:0000729	"DNA double-strand break processing"	4	TEST242	1	0.04578983	0.901836094
+BP	GO:0006607	"NLS-bearing protein import into nucleus"	4	TEST243	1	0.04578983	0.901836094
+BP	GO:0009164	"nucleoside catabolic process"	4	TEST244	1	0.04578983	0.901836094
+BP	GO:0010526	"negative regulation of transposition, RNA-mediated"	4	TEST245	1	0.04578983	0.901836094
+BP	GO:0017183	"peptidyl-diphthamide biosynthetic process from peptidyl-histidine"	4	TEST246	1	0.04578983	0.901836094
+BP	GO:0032071	"regulation of endodeoxyribonuclease activity"	4	TEST247	1	0.04578983	0.901836094
+BP	GO:0071930	"negative regulation of transcription involved in G1/S transition of mitotic cell cycle"	4	TEST248	1	0.04578983	0.901836094
+BP	GO:1900151	"regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay"	4	TEST249	1	0.04578983	0.901836094
+BP	GO:0010993	"regulation of ubiquitin homeostasis"	5	TEST250	1	0.045850851	0.697894574
+BP	GO:0032069	"regulation of nuclease activity"	5	TEST251	1	0.045850851	0.697894574
+BP	GO:0034087	"establishment of mitotic sister chromatid cohesion"	5	TEST252	1	0.045850851	0.697894574
+BP	GO:0010639	"negative regulation of organelle organization"	29	TEST253	1	0.047636076	0.196502803
+BP	GO:0000398	"mRNA splicing, via spliceosome"	12	TEST254	1	0.048000245	0.340262596
+BP	GO:0006310	"DNA recombination"	44	TEST255	1	0.048339729	0.154304893
+BP	GO:0051783	"regulation of nuclear division"	35	TEST256	1	0.049138445	0.174649056
+BP	GO:0045839	"negative regulation of mitotic nuclear division"	9	TEST257	1	0.049835199	0.411618505
+BP	GO:0032543	"mitochondrial translation"	5	TEST258	1	1.73E-08	-0.866747732
+BP	GO:0017004	"cytochrome complex assembly"	0	TEST259	1	1.59E-05	NA
+BP	GO:0019725	"cellular homeostasis"	35	TEST260	1	0.001024035	-0.25728284
+BP	GO:0033617	"mitochondrial respiratory chain complex IV assembly"	0	TEST261	1	0.001451905	NA
+BP	GO:0006896	"Golgi to vacuole transport"	1	TEST262	1	0.002178426	-1.005747571
+BP	GO:0000002	"mitochondrial genome maintenance"	3	TEST263	1	0.002236459	-0.675488908
+BP	GO:0009144	"purine nucleoside triphosphate metabolic process"	10	TEST264	1	0.002794483	-0.405922254
+BP	GO:0048878	"chemical homeostasis"	37	TEST265	1	0.002827754	-0.228680168
+BP	GO:0048308	"organelle inheritance"	5	TEST266	1	0.004034554	-0.525188587
+BP	GO:0006873	"cellular ion homeostasis"	24	TEST267	1	0.005577974	-0.257553298
+BP	GO:0048193	"Golgi vesicle transport"	22	TEST268	1	0.006465064	-0.263163302
+BP	GO:0043039	"tRNA aminoacylation"	1	TEST269	1	0.006472941	-0.934624419
+BP	GO:0009199	"ribonucleoside triphosphate metabolic process"	11	TEST270	1	0.006923677	-0.355212927
+BP	GO:0046034	"ATP metabolic process"	10	TEST271	1	0.007155468	-0.36897833
+BP	GO:0000041	"transition metal ion transport"	6	TEST272	1	0.007328525	-0.458795964
+BP	GO:0006637	"acyl-CoA metabolic process"	0	TEST273	1	0.007462813	NA
+BP	GO:0045184	"establishment of protein localization"	98	TEST274	1	0.007533566	-0.13246717
+BP	GO:0009311	"oligosaccharide metabolic process"	3	TEST275	1	0.007768129	-0.607817086
+BP	GO:0051174	"regulation of phosphorus metabolic process"	18	TEST276	1	0.008598949	-0.277992632
+BP	GO:0007032	"endosome organization"	1	TEST277	1	0.013207091	-0.879905747
+BP	GO:0007266	"Rho protein signal transduction"	1	TEST278	1	0.013207091	-0.879905747
+BP	GO:0009206	"purine ribonucleoside triphosphate biosynthetic process"	1	TEST279	1	0.013207091	-0.879905747
+BP	GO:0016485	"protein processing"	4	TEST280	1	0.015240301	-0.50043067
+BP	GO:0006812	"cation transport"	26	TEST281	1	0.015350145	-0.216737687
+BP	GO:0045333	"cellular respiration"	15	TEST282	1	0.015478584	-0.278347655
+BP	GO:0046352	"disaccharide catabolic process"	0	TEST283	1	0.016905251	NA
+BP	GO:0070127	"tRNA aminoacylation for mitochondrial protein translation"	0	TEST284	1	0.016905251	NA
+BP	GO:0098662	"inorganic cation transmembrane transport"	10	TEST285	1	0.01736577	-0.328739268
+BP	GO:0071702	"organic substance transport"	169	TEST286	1	0.018027628	-0.091763467
+BP	GO:0042325	"regulation of phosphorylation"	8	TEST287	1	0.018497457	-0.3601581
+BP	GO:0030242	"pexophagy"	1	TEST288	1	0.018776831	-0.849762131
+BP	GO:0043408	"regulation of MAPK cascade"	1	TEST289	1	0.018776831	-0.849762131
+BP	GO:0046434	"organophosphate catabolic process"	1	TEST290	1	0.018776831	-0.849762131
+BP	GO:0044724	"single-organism carbohydrate catabolic process"	10	TEST291	1	0.021476032	-0.318091396
+BP	GO:0006875	"cellular metal ion homeostasis"	16	TEST292	1	0.024938865	-0.249957772
+BP	GO:0000959	"mitochondrial RNA metabolic process"	0	TEST293	1	0.025122155	NA
+BP	GO:0033615	"mitochondrial proton-transporting ATP synthase complex assembly"	0	TEST294	1	0.025438445	NA
+BP	GO:0070272	"proton-transporting ATP synthase complex biogenesis"	0	TEST295	1	0.025438445	NA
+BP	GO:2000045	"regulation of G1/S transition of mitotic cell cycle"	0	TEST296	1	0.025438445	NA
+BP	GO:0051179	"localization"	302	TEST297	1	0.026088873	-0.068899399
+BP	GO:0006879	"cellular iron ion homeostasis"	5	TEST298	1	0.026319663	-0.420377331
+BP	GO:0006878	"cellular copper ion homeostasis"	1	TEST299	1	0.026599282	-0.817397131
+BP	GO:0042278	"purine nucleoside metabolic process"	17	TEST300	1	0.027409351	-0.238874607
+BP	GO:0042221	"response to chemical"	101	TEST301	1	0.030387162	-0.10287142
+BP	GO:0009142	"nucleoside triphosphate biosynthetic process"	2	TEST302	1	0.031551992	-0.606727939
+BP	GO:0007165	"signal transduction"	61	TEST303	1	0.032124628	-0.127630906
+BP	GO:0023052	"signaling"	61	TEST304	1	0.032124628	-0.127630906
+BP	GO:0009119	"ribonucleoside metabolic process"	19	TEST305	1	0.032411231	-0.219545269
+BP	GO:0005975	"carbohydrate metabolic process"	54	TEST306	1	0.032833049	-0.134367993
+BP	GO:0006487	"protein N-linked glycosylation"	5	TEST307	1	0.033805329	-0.403162771
+BP	GO:0034219	"carbohydrate transmembrane transport"	4	TEST308	1	0.034257625	-0.444370135
+BP	GO:0055085	"transmembrane transport"	74	TEST309	1	0.035278602	-0.114533324
+BP	GO:0006091	"generation of precursor metabolites and energy"	33	TEST310	1	0.035573049	-0.166131632
+BP	GO:0033108	"mitochondrial respiratory chain complex assembly"	1	TEST311	1	0.036666196	-0.785347678
+BP	GO:0007129	"synapsis"	1	TEST312	1	0.037527993	-0.782454782
+BP	GO:0010821	"regulation of mitochondrion organization"	1	TEST313	1	0.037527993	-0.782454782
+BP	GO:0015986	"ATP synthesis coupled proton transport"	1	TEST314	1	0.037527993	-0.782454782
+BP	GO:0042326	"negative regulation of phosphorylation"	1	TEST315	1	0.037527993	-0.782454782
+BP	GO:0070071	"proton-transporting two-sector ATPase complex assembly"	1	TEST316	1	0.037527993	-0.782454782
+BP	GO:1904669	"ATP export"	1	TEST317	1	0.037527993	-0.782454782
+BP	GO:0015791	"polyol transport"	0	TEST318	1	0.038273584	NA
+BP	GO:0031098	"stress-activated protein kinase signaling cascade"	0	TEST319	1	0.038273584	NA
+BP	GO:0070816	"phosphorylation of RNA polymerase II C-terminal domain"	0	TEST320	1	0.038273584	NA
+BP	GO:0055076	"transition metal ion homeostasis"	16	TEST321	1	0.041872328	-0.225495294
+BP	GO:0071852	"fungal-type cell wall organization or biogenesis"	37	TEST322	1	0.041993737	-0.15158465
+BP	GO:0015865	"purine nucleotide transport"	2	TEST323	1	0.042814006	-0.578518748
+BP	GO:0051651	"maintenance of location in cell"	5	TEST324	1	0.04319623	-0.385252859
+BP	GO:0006886	"intracellular protein transport"	66	TEST325	1	0.044152131	-0.114263914
+BP	GO:0007029	"endoplasmic reticulum organization"	3	TEST326	1	0.044573439	-0.481793065
+BP	GO:0045991	"carbon catabolite activation of transcription"	3	TEST327	1	0.044573439	-0.481793065
+BP	GO:0098771	"inorganic ion homeostasis"	28	TEST328	1	0.047968345	-0.167472535
+BP	GO:0032270	"positive regulation of cellular protein metabolic process"	14	TEST329	1	0.049730777	-0.230932695
+MF	GO:0015075	"ion transmembrane transporter activity"	34	TEST330	1	0.000539733	-0.273944446
+MF	GO:0022890	"inorganic cation transmembrane transporter activity"	16	TEST331	1	0.001541187	-0.349445208
+MF	GO:0004175	"endopeptidase activity"	8	TEST332	1	0.004548713	-0.426367717
+MF	GO:0015078	"hydrogen ion transmembrane transporter activity"	6	TEST333	1	0.007328525	-0.458795964
+MF	GO:0008233	"peptidase activity"	18	TEST334	1	0.012460207	-0.264462515
+MF	GO:0015144	"carbohydrate transmembrane transporter activity"	4	TEST335	1	0.015240301	-0.50043067
+MF	GO:0050661	"NADP binding"	0	TEST336	1	0.016905251	NA
+MF	GO:0004812	"aminoacyl-tRNA ligase activity"	1	TEST337	1	0.018776831	-0.849762131
+MF	GO:0016875	"ligase activity, forming carbon-oxygen bonds"	1	TEST338	1	0.018776831	-0.849762131
+MF	GO:0016628	"oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor"	0	TEST339	1	0.025438445	NA
+MF	GO:0046915	"transition metal ion transmembrane transporter activity"	4	TEST340	1	0.026280665	-0.463856283
+MF	GO:0022857	"transmembrane transporter activity"	77	TEST341	1	0.031157125	-0.115525831
+MF	GO:0001047	"core promoter binding"	0	TEST342	1	0.038273584	NA
+MF	GO:0015295	"solute:proton symporter activity"	5	TEST343	1	0.04319623	-0.385252859
+MF	GO:0046872	"metal ion binding"	150	TEST344	1	0.045465506	-0.078706119
+MF	GO:0016616	"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"	10	TEST345	1	0.048225919	-0.272780275
+MF	GO:0003777	"microtubule motor activity"	8	TEST346	1	0.003457933	0.903089987
+MF	GO:0008170	"N-methyltransferase activity"	16	TEST347	1	0.005111013	0.46502004
+MF	GO:0003676	"nucleic acid binding"	128	TEST348	1	0.005830032	0.135704788
+MF	GO:0008017	"microtubule binding"	11	TEST349	1	0.008138907	0.564631095
+MF	GO:0003723	"RNA binding"	115	TEST350	1	0.011028702	0.129369387
+MF	GO:0008092	"cytoskeletal protein binding"	28	TEST351	1	0.013066084	0.273250991
+MF	GO:0016741	"transferase activity, transferring one-carbon groups"	31	TEST352	1	0.014361155	0.252164556
+MF	GO:0016779	"nucleotidyltransferase activity"	15	TEST353	1	0.014611507	0.398661428
+MF	GO:0044877	"macromolecular complex binding"	53	TEST354	1	0.01487266	0.184289222
+MF	GO:0008574	"ATP-dependent microtubule motor activity, plus-end-directed"	5	TEST355	1	0.018071381	0.999103993
+MF	GO:0015266	"protein channel activity"	5	TEST356	1	0.018071381	0.999103993
+MF	GO:0003697	"single-stranded DNA binding"	16	TEST357	1	0.019102455	0.359743962
+MF	GO:0008757	"S-adenosylmethionine-dependent methyltransferase activity"	25	TEST358	1	0.02563316	0.25326568
+MF	GO:0046982	"protein heterodimerization activity"	10	TEST359	1	0.027738094	0.455752161
+MF	GO:0043566	"structure-specific DNA binding"	13	TEST360	1	0.028929935	0.373760831
+MF	GO:0030554	"adenyl nucleotide binding"	129	TEST361	1	0.029112701	0.100676112
+MF	GO:0016763	"transferase activity, transferring pentosyl groups"	9	TEST362	1	0.03132837	0.476761888
+MF	GO:0031491	"nucleosome binding"	9	TEST363	1	0.03132837	0.476761888
+MF	GO:0005524	"ATP binding"	128	TEST364	1	0.034595975	0.096897753
+MF	GO:0000384	"first spliceosomal transesterification activity"	3	TEST365	1	0.037404625	NA
+MF	GO:0000386	"second spliceosomal transesterification activity"	3	TEST366	1	0.037404625	NA
+MF	GO:0004030	"aldehyde dehydrogenase [NAD(P)+] activity"	3	TEST367	1	0.037404625	NA
+MF	GO:0004075	"biotin carboxylase activity"	3	TEST368	1	0.037404625	NA
+MF	GO:0004477	"methenyltetrahydrofolate cyclohydrolase activity"	3	TEST369	1	0.037404625	NA
+MF	GO:0004488	"methylenetetrahydrofolate dehydrogenase (NADP+) activity"	3	TEST370	1	0.037404625	NA
+MF	GO:0008902	"hydroxymethylpyrimidine kinase activity"	3	TEST371	1	0.037404625	NA
+MF	GO:0008972	"phosphomethylpyrimidine kinase activity"	3	TEST372	1	0.037404625	NA
+MF	GO:0047536	"2-aminoadipate transaminase activity"	3	TEST373	1	0.037404625	NA
+MF	GO:0050334	"thiaminase activity"	3	TEST374	1	0.037404625	NA
+MF	GO:1903089	"5-amino-1-ribofuranosylimidazole-4-carboxamide transporter activity"	3	TEST375	1	0.037404625	NA
+MF	GO:0008175	"tRNA methyltransferase activity"	7	TEST376	1	0.039205845	0.543350202
+MF	GO:0003887	"DNA-directed DNA polymerase activity"	6	TEST377	1	0.043016777	0.601163244
+MF	GO:0016279	"protein-lysine N-methyltransferase activity"	10	TEST378	1	0.044068496	0.397580344
+MF	GO:0004386	"helicase activity"	17	TEST379	1	0.044983169	0.276567872
+MF	GO:0000014	"single-stranded DNA endodeoxyribonuclease activity"	4	TEST380	1	0.04578983	0.901836094
+MF	GO:0000150	"recombinase activity"	4	TEST381	1	0.04578983	0.901836094
+MF	GO:0000182	"rDNA binding"	4	TEST382	1	0.04578983	0.901836094
+MF	GO:0004029	"aldehyde dehydrogenase (NAD) activity"	5	TEST383	1	0.045850851	0.697894574
+MF	GO:0016742	"hydroxymethyl-, formyl- and related transferase activity"	5	TEST384	1	0.045850851	0.697894574
+MF	GO:0022884	"macromolecule transmembrane transporter activity"	5	TEST385	1	0.045850851	0.697894574
+MF	GO:0003729	"mRNA binding"	40	TEST386	1	0.046376523	0.164750269
+MF	GO:0005488	"binding"	530	TEST387	1	0.048160014	0.053234453
