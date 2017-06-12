@@ -1,0 +1,25 @@
+library(psych)
+data<-read.table("KOTC_fold_change.txt",header=TRUE)
+subdata<-data[-c(235, 913), ] 
+pairs.panels(subdata[,2:7], 
+        method = "pearson", # correlation method
+       hist.col = "#00AFBB",
+       density = TRUE,  # show density plots
+       lm=TRUE, cex=0.25, cex.cor=1)
+# Figure modified in Illustrator
+# Below is the test of signficance
+cor.test(subdata[,2], subdata[,3])
+cor.test(subdata[,2], subdata[,4])
+cor.test(subdata[,2], subdata[,5])
+cor.test(subdata[,2], subdata[,6])
+cor.test(subdata[,2], subdata[,7])
+cor.test(subdata[,3], subdata[,4])
+cor.test(subdata[,3], subdata[,5])
+cor.test(subdata[,3], subdata[,6])
+cor.test(subdata[,3], subdata[,7])
+cor.test(subdata[,4], subdata[,5])
+cor.test(subdata[,4], subdata[,6])
+cor.test(subdata[,4], subdata[,7])
+cor.test(subdata[,5], subdata[,6])
+cor.test(subdata[,5], subdata[,7])
+cor.test(subdata[,6], subdata[,7])
