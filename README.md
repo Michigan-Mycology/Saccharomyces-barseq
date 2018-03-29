@@ -1,5 +1,5 @@
 # Saccharomyces-barseq
-Repository for Phadke et al. in press at G3, "Genome-wide screen for yeast genes contributing to opportunistic pathogenicity in an invertebrate model host"
+Repository for Phadke et al. (2018) G3, "Genome-wide screen for yeast genes contributing to opportunistic pathogenicity in an invertebrate model host"
 
 Unless specified, code for Figures is written in R.
 
